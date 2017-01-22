@@ -1,0 +1,110 @@
+
+html, body {
+  width: 100%;
+  height: 100%;
+  background: red;
+}
+
+/*one column*/
+
+.one-column .a .one-column .b {
+  width: 100%;
+  height: 50%;
+}
+
+.one-column .a {
+  background-color: white;
+}
+
+.one-column .b {
+  background-color: red;
+}
+
+/*two column*/
+
+.two-column .a, .b {
+  width: 50%;
+  height: 100%;
+}
+
+.two-column .a {
+  background-color: white;
+  display: inline-block;
+}
+
+.two-column .b {
+  background-color: red;
+  display: inline-block;
+  float: right;
+}
+
+/*three column*/
+
+.three-column .a, .b, .c{
+  width: 33%;
+  height: 100%;
+  display: inline-block;
+}
+
+.three-column .a {
+  background-color: red;
+  
+}
+
+.three-column .b {
+  background-color: white;
+  
+}
+
+.three-column .c {
+  background-color: blue;
+}
+
+/*four column*/
+
+.four-column .a, .b, .c, .d{
+  width: 25%;
+  height: 100%;
+  display: inline-block;
+}
+
+.four-column .a {
+  background-color: red;
+}
+
+.four-column .b {
+  background-color: white;
+}
+
+.four-column .c {
+  background-color: blue;
+}
+
+.four-column .d {
+  background-color: red;
+}
+
+/*five column*/
+
+.one-column-stacked .a .b, .c,{
+  width: 50%;
+  height: 50%;
+  display: inline-block;
+}
+
+.one-column-stacked .a {
+  background-color: red;
+  display: top;
+}
+
+.one-column-stacked .b {
+  background-color: white;
+  display: left;
+}
+
+.one-column-stacked .c {
+  background-color: blue;
+   display: right;
+}
+
+
